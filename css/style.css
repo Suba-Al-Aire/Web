@@ -1,0 +1,225 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+
+header {
+    background-color: #191a5b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, #191a5b, transparent), url('../img/suba1.png');
+    background-position: right;
+    height: 150px;
+}
+
+#logo {
+    margin-left: 20px;
+    height: 100px;
+}
+
+
+nav {
+    background-color: #1468c7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 5px;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #1468c7;
+}
+
+body {
+    font-family: Calibri, Arial, sans-serif;
+}
+
+.CyN {
+    margin: 20px;
+}
+
+.col-md-6 {
+    margin-bottom: 20px;
+}
+
+.carousel {
+    margin: 30px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+}
+
+.carousel-item img {
+    max-width: 85%;
+    display: block;
+    margin: auto;
+}
+
+.contenedorRedes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#imgprincipal {
+    max-height: 250px;
+    object-fit: cover;
+}
+
+#imgSecundaria {
+    max-height: 150px;
+    object-fit: cover;
+}
+
+.imgAlianzas {
+    align-items: center;
+}
+
+.alianzas img {
+    height: 100px;
+    margin: 10px;
+    border-radius: 10%;
+}
+
+.videos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.video-item {
+    width: 40%;
+    height: 280px;
+    margin: 20px;
+
+}
+
+@media (max-width: 768px) {
+    .video-item {
+        width: 48%;
+        height: auto;
+    }
+}
+
+.contenido {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.podcast {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.planilla {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+}
+
+.redes li {
+    margin-right: 20px;
+}
+
+.logofooter {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: -70px;
+    display: flex;
+    text-align: left;
+}
+
+.colfooter {
+    padding: 30px;
+}
+
+.colfooter logoFooter {
+    text-align: right;
+    margin-left: -50px;
+}
+
+.thumbnail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thumbnail img {
+    max-width: 100%;
+    max-height: 200px;
+    height: auto;
+    margin: 10px;
+}
+
+@media screen and (max-width: 770px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        padding: 2px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    .logofooter {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .carousel {
+        margin: 0;
+        margin-top: -50px;
+        margin-bottom: -20px;
+        height: 400px;
+        display: flex;
+        align-items: center;
+    }
+}
