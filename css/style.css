@@ -79,6 +79,14 @@ body {
     margin: auto;
 }
 
+.noticias{
+    margin: 25px;
+}
+
+.card{
+    min-height: 325px;
+}
+
 .contenedorRedes {
     display: flex;
     justify-content: center;
@@ -89,7 +97,7 @@ body {
 }
 
 #imgprincipal {
-    max-height: 250px;
+    max-height: 370px;
     object-fit: cover;
 }
 
