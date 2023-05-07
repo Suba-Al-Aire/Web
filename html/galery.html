@@ -4,10 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parrilla Programación</title>
+    <title>Galeria - Suba Al Aire</title>
     <link rel="stylesheet" href="../css/style.css">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/stylegal.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
@@ -30,163 +32,115 @@
     </nav>
 
     <!--Galeria-->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="thumbnail">
-                    <img src="../img/Galeria/img (1).jpeg" alt="Foto 1">
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="thumbnail">
-                    <img src="../img/Galeria/img (2).jpeg" alt="Foto 2">
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="thumbnail">
-                    <img src="../img/Galeria/img (3).jpeg" alt="Foto 3">
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="thumbnail">
-                    <img src="../img/Galeria/img (4).jpeg" alt="Foto 4">
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="thumbnail">
-                    <img src="../img/Galeria/img (5).jpeg" alt="Foto 5">
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="thumbnail">
-                    <img src="../img/Galeria/img (6).jpeg" alt="Foto 6">
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="thumbnail">
-                    <img src="../img/Galeria/img (7).jpeg" alt="Foto 7">
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="thumbnail">
-                    <img src="../img/Galeria/img (8).jpeg" alt="Foto 8">
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="thumbnail">
-                    <img src="../img/Galeria/img (9).jpeg" alt="Foto 9">
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="thumbnail">
-                    <img src="../img/Galeria/img (10).jpeg" alt="Foto 10">
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="thumbnail">
-                    <img src="../img/Galeria/img (11).jpeg" alt="Foto 11">
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="thumbnail">
-                    <img src="../img/Galeria/img (12).jpeg" alt="Foto 12">
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="thumbnail">
-                    <img src="../img/Galeria/img (13).jpeg" alt="Foto 13">
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="thumbnail">
-                    <img src="../img/Galeria/img (14).jpeg" alt="Foto 14">
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="thumbnail">
-                    <img src="../img/Galeria/img (15).jpeg" alt="Foto 15">
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="thumbnail">
-                    <img src="../img/Galeria/img (16).jpeg" alt="Foto 16">
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="thumbnail">
-                    <img src="../img/Galeria/img (17).jpeg" alt="Foto 17">
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="thumbnail">
-                    <img src="../img/Galeria/img (18).jpeg" alt="Foto 18">
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="thumbnail">
-                    <img src="../img/Galeria/img (19).jpeg" alt="Foto 19">
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="thumbnail">
-                    <img src="../img/Galeria/img (20).jpeg" alt="Foto 20">
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="thumbnail">
-                    <img src="../img/Galeria/img (21).jpeg" alt="Foto 21">
-                </div>
-            </div>
-        </div>
+    <div class="galery" id="galery">
+
+        <!--Las imagenes se agregan con js-->
+
     </div>
 
-    <footer style="background-color: #1468c7; color: white;">
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImg" alt="Imagen grande">
+    </div>
+
+    <footer style="background-color: #1468c7; color: white">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 colfooter">
                     <div class="logofooter">
-                        <img src="../img/logo.png" alt="Logo de la emisora" height="170px">
+                        <img src="../img/logo.png" alt="Logo de la emisora" height="170px" />
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <br><br>
+                    <br /><br />
                     <div class="redes">
                         <h5>Recuerda que puedes seguirnos en nuestras Redes Sociales</h5>
                     </div>
                     <ul class="list-unstyled redes">
-                        <li><a href="https://www.facebook.com/suba.alaire.3/"><img src="../img/facebook.png"
-                                    alt="Facebook" height="50px"></a></li>
-                        <li><a href="https://www.instagram.com/subalaire/"><img src="../img/instagram.png"
-                                    alt="Instagram" height="50px"></a></li>
-                        <li><a href="https://twitter.com/Subaalaire"><img src="../img/twitter.png" alt="twitter"
-                                    height="50px"></a></li>
-                        <li><a href="https://www.tiktok.com/@subaalarie_88.4_fm"><img src="../img/tiktok.png"
-                                    alt="tiktok" height="50px"></a></li>
-
+                        <li>
+                            <a href="https://www.facebook.com/suba.alaire.3/" target="_blank"><img
+                                    src="../img/facebook.png" alt="Facebook" height="50px" /></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/subalaire/" target="_blank"><img
+                                    src="../img/instagram.png" alt="Instagram" height="50px" /></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/Subaalaire" target="_blank"><img src="../img/twitter.png"
+                                    alt="twitter" height="50px" /></a>
+                        </li>
+                        <li>
+                            <a href="https://www.tiktok.com/@subaalarie_88.4_fm" target="_blank"><img
+                                    src="../img/tiktok.png" alt="tiktok" height="50px" /></a>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-md-3 colfooter">
                     <h4>Contactanos:</h4>
                     <p>Teléfono: 3162820055</p>
                     <p>Correo: subaalaire88.4fm@gmail.com</p>
-                    <p>Dirección: Cl. 147 #101-56, Suba, Bogotá. Centro Comercial Fiesta Suba Local 202</p>
-                    <br>
+                    <p>
+                        Dirección: Cl. 147 #101-56, Suba, Bogotá. Centro Comercial Fiesta
+                        Suba Local 202
+                    </p>
+                    <br />
                 </div>
             </div>
         </div>
     </footer>
+
+    <script>
+        //Cargue de imagenes
+        const galeriaDiv = document.getElementById('galery');
+        const rutaCarpeta = '../img/Galeria';
+
+        fetch(`${rutaCarpeta}/`)
+            .then(response => response.text())
+            .then(data => {
+                //Obtener archivos
+                const regex = /href="([^"]+\.(?:png|jpg|gif|bmp|jpeg))"/gi;
+                let match;
+                let num = 1;
+                while ((match = regex.exec(data)) !== null) {
+                    const img = document.createElement('img');
+                    img.src = `${match[1]}`;
+                    img.alt = 'Img ' + num;
+                    num += 1;
+
+                    galeriaDiv.appendChild(img);
+                }
+            })
+            .catch(error => {
+                console.error('Error al leer los archivos de la carpeta:', error);
+            });
+
+
+        //Script para abrir las imagenes
+        /*
+        document.addEventListener('DOMContentLoaded', function () {
+
+            const imagenes = galeriaDiv.getElementsByTagName('img');
+
+            for (let i = 0; i < imagenes.length; i++) {
+                imagenes[i].addEventListener('click', function () {
+
+                    const imgUrl = this.src;
+
+                    const modal = document.getElementById('myModal');
+                    const modalImg = document.getElementById('modalImg');
+                    modal.style.display = 'block';
+                    modalImg.src = imgUrl;
+                });
+            }
+            const closeBtn = document.getElementsByClassName('close')[0];
+            closeBtn.addEventListener('click', function () {
+                // Cierra el modal al hacer clic en el botón de cierre
+                const modal = document.getElementById('myModal');
+                modal.style.display = 'none';
+            });
+        });*/
+    </script>
+
 </body>
 
 </html>

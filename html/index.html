@@ -2,252 +2,266 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Suba Al Aire</title>
-    <link rel="stylesheet" href="../css/style.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-    <link rel="icon" type="image/png" href="../img/logoPagina.png" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Suba Al Aire</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="icon" type="image/png" href="../img/logoPagina.png" />
 </head>
 
 <body>
-    <header>
-        <img src="../img/logo(1).png" alt="Logo de la empresa" id="logo" />
-    </header>
-    <nav>
-        <ul>
-            <li><a href="../html/index.html">Inicio</a></li>
-            <li><a href="../html/planilla.html">Parrilla de Programación</a></li>
-            <li><a href="../html/MdS.html">Manual de Estilos</a></li>
-            <li><a href="../html/galery.html">Galería</a></li>
-            <li><a href="#">Nosotros</a></li>
-        </ul>
-    </nav>
-    <div class="CyN">
-        <h1>Entérate de lo último en Suba, Bogotá, Colombia y El Mundo:</h1>
-        <div class="row">
-            <div class="col-md-6 post">
-                <br />
-                <div id="carruselImagenes" class="carousel" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="../img/slide1.jpg" class="d-block w-100" alt="Imagen 1"
-                                onclick="abrirImagen1()" />
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../img/slide2.jpg" class="d-block w-100" alt="Imagen 2"
-                                onclick="abrirImagen2()" />
-                        </div>
-                        <div class="carousel-item">
-                            <img src="../img/slide3.jpg" class="d-block w-100" alt="Imagen 3"
-                                onclick="abrirImagen3()" />
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carruselImagenes"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carruselImagenes"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
+  <header>
+    <img src="../img/logo(1).png" alt="Logo de la empresa" id="logo" />
+  </header>
+  <nav>
+    <ul>
+      <li><a href="../html/index.html">Inicio</a></li>
+      <li><a href="../html/planilla.html">Parrilla de Programación</a></li>
+      <li><a href="../html/MdS.html">Manual de Estilos</a></li>
+      <li><a href="../html/galery.html">Galería</a></li>
+      <li><a href="#">Nosotros</a></li>
+    </ul>
+  </nav>
+  <div class="CyN">
+    <h1>Entérate de lo último en Suba, Bogotá, Colombia y El Mundo:</h1>
+    <div class="row">
+      <div class="col-md-6 post">
+        <br />
+        <div id="carruselImagenes" class="carousel" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../img/slide1.jpg" class="d-block w-100" alt="Imagen 1" onclick="abrirImagen1()" />
             </div>
-            <div class="noticia col-md-6">
-                <div class="container">
-                    <br />
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="card mb-3">
-                                <img src="../img/Noticia1.webp" class="card-img-top" alt="Noticia principal"
-                                    id="imgprincipal" />
-                                <div class="card-body">
-                                    <h5 class="card-title">
-                                        El papa Francisco se reúne con Viktor Orban con la guerra de Ucrania como telón de fondo
-                                    </h5>
-                                    <p class="card-text">El papa Francisco llegó a Hungría este 28 de abril para una visita de tres días.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="carousel-item">
+              <img src="../img/slide2.jpg" class="d-block w-100" alt="Imagen 2" onclick="abrirImagen2()" />
             </div>
+            <div class="carousel-item">
+              <img src="../img/slide3.jpg" class="d-block w-100" alt="Imagen 3" onclick="abrirImagen3()" />
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carruselImagenes" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carruselImagenes" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <div class="noticias">
-            <div class="row justify-content-center">
-                <div class="col-md-3 col-sm-6">
-                    <div class="card mb-3">
-                        <img src="../img/noticia2.webp" class="card-img-top" alt="Imagen de la segunda noticia"
-                            id="imgSecundaria" />
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                Potenciar Trabajo y Salario Mínimo: cómo impacta la suba
-                            </h5>
-                            <p class="card-text">Economía.</p>
-                        </div>
-                    </div>
+      </div>
+      <div class="noticia col-md-6">
+        <div class="container">
+          <br>
+          <div class="row">
+            <div class="col-12">
+              <a href="https://www.rfi.fr/es/europa/20230506-carlos-iii-es-coronado-en-una-hist%C3%B3rica-ceremonia-en-londres" target="_blank">
+                <div class="card mb-3">
+                  <img src="../img/Noticia1.webp" class="card-img-top" alt="Noticia principal" id="imgprincipal" />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Carlos III es coronado en una histórica ceremonia en Londres
+                    </h5>
+                    <p class="card-text">
+                      Ocho meses después de subir al trono tras la muerte de Isabel II, Carlos III fue solemnemente
+                      coronado el sábado junto a su esposa Camila.
+                    </p>
+                  </div>
                 </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="card mb-3">
-                        <img src="../img/noticia3.jpg" class="card-img-top" alt="Imagen de la tercera noticia"
-                            id="imgSecundaria" />
-                        <div class="card-body">
-                            <h5 class="card-title">Misión ExoMars: proyecto espacial de la ESA para buscar vida en Marte</h5>
-                            <p class="card-text">
-                                Se llama ExoMars por "Exobiology on Mars", una misión de astrobiología con el objetivo de buscar vida en Marte.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="card mb-3">
-                        <img src="../img/noticia4.webp" class="card-img-top" alt="Imagen de la tercera noticia"
-                            id="imgSecundaria" />
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                Lula demarca seis nuevas reservas indigenas
-                            </h5>
-                            <p class="card-text">
-                                El presidente de Brasil, Lula da Silva, firmó una serie de
-                                decretos que demarcan seis nuevos territorios para pueblos
-                                indígenas.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="card mb-3">
-                        <img src="../img/noticia5.webp" class="card-img-top" alt="Imagen de la tercera noticia"
-                            id="imgSecundaria" />
-                        <div class="card-body">
-                            <h5 class="card-title">Fin del Título 42</h5>
-                            <p class="card-text">
-                                Se abrirá centros en Colombia y Guatemala para preseleccionar a los migrantes que podrán entrar en el país en cuanto se levante en mayo el Título 42.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+              </a>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-    <div class="contenido">
-        <h2>Podcast</h2>
-        <div class="podcast row">
-            <iframe style="border-radius: 12px" class="col-md-6"
-                src="https://open.spotify.com/embed/episode/1YjMplzS9pmwgg5FLFnPhj?utm_source=generator" width="100%"
-                height="152" frameborder="0" allowfullscreen=""
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"></iframe>
-            <iframe style="border-radius: 12px" class="col-md-6"
-                src="https://open.spotify.com/embed/episode/5uq771m0Yp1pR7AhLGLuBX?utm_source=generator" width="100%"
-                height="152" frameborder="0" allowfullscreen=""
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"></iframe>
-        </div>
-        <br /><br />
-        <h2>Videos:</h2>
-        <div class="videos-container">
-            <iframe class="video-item" src="https://www.youtube.com/embed/8WmTy_9xehA"></iframe>
-            <iframe class="video-item" src="https://www.youtube.com/embed/kbmtex9jdig"></iframe>
-        </div>
-        <br /><br />
-        <div class="alianzas">
-            <div class="row justify-content-between imgAlianzas">
-                <div class="col-md-2 col-sm-6 text-center">
-                    <a href="#">
-                        <img src="../img/uniminuto.jpg" class="img-fluid" alt="Antena Ciudadana" />
-                    </a>
-                </div>
-
-                <div class="col-md-2 col-sm-6 text-center">
-                    <a href="#">
-                        <img src="../img/FS.png" class="img-fluid" alt="Radio Francia" />
-                    </a>
-                </div>
-
-                <div class="col-md-2 col-sm-6 text-center">
-                    <a href="#">
-                        <img src="../img/RF.png" class="img-fluid" alt="Radio Francia" />
-                    </a>
-                </div>
-
-                <div class="col-md-2 col-sm-6 text-center">
-                    <a href="#">
-                        <img src="../img/Jarana.jpg" class="img-fluid" alt="Radio Francia" />
-                    </a>
-                </div>
-                <div class="col-md-2 col-sm-12 text-center">
-                    <a href="#">
-                        <img src="../img/ESCULTURA.png" class="img-fluid" alt="Radio Francia" />
-                    </a>
-                </div>
+    <div class="noticias">
+      <div class="row justify-content-center">
+        <div class="col-md-3 col-sm-6">
+          <a href="https://www.rfi.fr/es/europa/20230507-los-brit%C3%A1nicos-celebran-la-coronaci%C3%B3n-con-fiestas-vecinales-y-un-gran-concierto"
+            target="_blank">
+            <div class="card mb-3">
+              <img src="../img/noticia2.webp" class="card-img-top" alt="Imagen de la segunda noticia"
+                id="imgSecundaria" />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Los británicos celebran la coronación con fiestas vecinales y un gran concierto
+                </h5>
+                <p class="card-text">Los británicos celebran el domingo la coronación de Carlos III y la reina Camila
+                  con grandes comidas de barrio en plena calle</p>
+              </div>
             </div>
+          </a>
         </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="https://www.rfi.fr/es/programas/mundo-ciencia/20230428-misi%C3%B3n-exomars-proyecto-espacial-de-la-esa-para-buscar-vida-en-marte-astrobiolog%C3%ADa"
+            target="_blank">
+            <div class="card mb-3">
+              <img src="../img/noticia3.jpg" class="card-img-top" alt="Imagen de la tercera noticia"
+                id="imgSecundaria" />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Misión ExoMars: proyecto espacial de la ESA para buscar vida
+                  en Marte
+                </h5>
+                <p class="card-text">
+                  Se llama ExoMars por "Exobiology on Mars", una misión de
+                  astrobiología con el objetivo de buscar vida en Marte.
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="https://www.rfi.fr/es/am%C3%A9ricas/20230506-gustavo-petro-es-distinguido-por-la-universidad-de-salamanca-al-fin-de-su-visita-a-espa%C3%B1a"
+            target="_blank">
+            <div class="card mb-3">
+              <img src="../img/noticia4.webp" class="card-img-top" alt="Imagen de la tercera noticia"
+                id="imgSecundaria" />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Gustavo Petro es distinguido por la Universidad de Salamanca al fin de su visita a España
+                </h5>
+                <p class="card-text">
+                  El presidente de Colombia, recibió este viernes la máxima distinción de la Universidad de
+                  Salamanca, donde estudió.
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="https://www.rfi.fr/es/am%C3%A9ricas/20230504-brasil-y-argentina-quieren-prescindir-del-d%C3%B3lar"
+            target="_blank">
+            <div class="card mb-3">
+              <img src="../img/noticia5.webp" class="card-img-top" alt="Imagen de la tercera noticia"
+                id="imgSecundaria" />
+              <div class="card-body">
+                <h5 class="card-title">Brasil y Argentina quieren prescindir del dólar</h5>
+                <p class="card-text">
+                  Las iniciativas para escapar a la hegemonía del dólar se multiplican en los países emergentes con
+                  mayor o menor éxito.
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="contenido">
+    <h2>Podcast</h2>
+    <div class="podcast row">
+      <iframe style="border-radius: 12px" class="col-md-6"
+        src="https://open.spotify.com/embed/episode/1YjMplzS9pmwgg5FLFnPhj?utm_source=generator" width="100%"
+        height="152" frameborder="0" allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <iframe style="border-radius: 12px" class="col-md-6"
+        src="https://open.spotify.com/embed/episode/5uq771m0Yp1pR7AhLGLuBX?utm_source=generator" width="100%"
+        height="152" frameborder="0" allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </div>
     <br /><br />
-    <footer style="background-color: #1468c7; color: white">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 colfooter">
-                    <div class="logofooter">
-                        <img src="../img/logo.png" alt="Logo de la emisora" height="170px" />
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <br /><br />
-                    <div class="redes">
-                        <h5>Recuerda que puedes seguirnos en nuestras Redes Sociales</h5>
-                    </div>
-                    <ul class="list-unstyled redes">
-                        <li>
-                            <a href="https://www.facebook.com/suba.alaire.3/"><img src="../img/facebook.png"
-                                    alt="Facebook" height="50px" /></a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/subalaire/"><img src="../img/instagram.png"
-                                    alt="Instagram" height="50px" /></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/Subaalaire"><img src="../img/twitter.png" alt="twitter"
-                                    height="50px" /></a>
-                        </li>
-                        <li>
-                            <a href="https://www.tiktok.com/@subaalarie_88.4_fm"><img src="../img/tiktok.png"
-                                    alt="tiktok" height="50px" /></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-3 colfooter">
-                    <h4>Contactanos:</h4>
-                    <p>Teléfono: 3162820055</p>
-                    <p>Correo: subaalaire88.4fm@gmail.com</p>
-                    <p>
-                        Dirección: Cl. 147 #101-56, Suba, Bogotá. Centro Comercial Fiesta
-                        Suba Local 202
-                    </p>
-                    <br />
-                </div>
-            </div>
+    <h2>Videos:</h2>
+    <div class="videos-container">
+      <iframe class="video-item" src="https://www.youtube.com/embed/8WmTy_9xehA"></iframe>
+      <iframe class="video-item" src="https://www.youtube.com/embed/kbmtex9jdig"></iframe>
+    </div>
+    <br /><br />
+    <div class="alianzas">
+      <div class="row justify-content-between imgAlianzas">
+        <div class="col-md-2 col-sm-6 text-center">
+          <a href="https://www.uniminuto.edu/" target="_blank">
+            <img src="../img/uniminuto.jpg" class="img-fluid" alt="Uniminuto" />
+          </a>
         </div>
-    </footer>
 
-    <script>
-        function abrirImagen1() {
-            window.open("../img/slide1.jpg");
-        }
-        function abrirImagen2() {
-            window.open("../img/slide2.jpg");
-        }
-        function abrirImagen3() {
-            window.open("../img/slide3.jpg");
-        }
-    </script>
+        <div class="col-md-2 col-sm-6 text-center">
+          <a href="https://fiestasuba.com/" target="_blank">
+            <img src="../img/FS.png" class="img-fluid" alt="Fiesta Suba" />
+          </a>
+        </div>
+
+        <div class="col-md-2 col-sm-6 text-center">
+          <a href="https://www.rfi.fr/es/" target="_blank">
+            <img src="../img/RF.png" class="img-fluid" alt="Radio Francia" />
+          </a>
+        </div>
+
+        <div class="col-md-2 col-sm-6 text-center">
+          <a href="https://www.facebook.com/companiaartistica.jarana" target="_blank">
+            <img src="../img/Jarana.jpg" class="img-fluid" alt="Grupo Jarana" />
+          </a>
+        </div>
+        <div class="col-md-2 col-sm-12 text-center">
+          <a href="https://www.idartes.gov.co/es/sala-de-prensa/programas/es-cultura-local" target="_blank">
+            <img src="../img/ESCULTURA.png" class="img-fluid" alt="Es Cultura Local" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br /><br />
+  <footer style="background-color: #1468c7; color: white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 colfooter">
+          <div class="logofooter">
+            <img src="../img/logo.png" alt="Logo de la emisora" height="170px" />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <br /><br />
+          <div class="redes">
+            <h5>Recuerda que puedes seguirnos en nuestras Redes Sociales</h5>
+          </div>
+          <ul class="list-unstyled redes">
+            <li>
+              <a href="https://www.facebook.com/suba.alaire.3/" target="_blank"><img src="../img/facebook.png"
+                  alt="Facebook" height="50px" /></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/subalaire/" target="_blank"><img src="../img/instagram.png"
+                  alt="Instagram" height="50px" /></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/Subaalaire" target="_blank"><img src="../img/twitter.png" alt="twitter"
+                  height="50px" /></a>
+            </li>
+            <li>
+              <a href="https://www.tiktok.com/@subaalarie_88.4_fm" target="_blank"><img src="../img/tiktok.png"
+                  alt="tiktok" height="50px" /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3 colfooter">
+          <h4>Contactanos:</h4>
+          <p>Teléfono: 3162820055</p>
+          <p>Correo: subaalaire88.4fm@gmail.com</p>
+          <p>
+            Dirección: Cl. 147 #101-56, Suba, Bogotá. Centro Comercial Fiesta
+            Suba Local 202
+          </p>
+          <br />
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function abrirImagen1() {
+      window.open("../img/slide1.jpg");
+    }
+    function abrirImagen2() {
+      window.open("../img/slide2.jpg");
+    }
+    function abrirImagen3() {
+      window.open("../img/slide3.jpg");
+    }
+  </script>
 </body>
 
 </html>
