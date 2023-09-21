@@ -1,5 +1,6 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    height: 100%;
 }
 
 header {
@@ -85,11 +86,11 @@ body {
 }
 
 .carousel-item img {
-    max-width: 85%;
+    width: 85%;
     display: block;
     margin: auto;
-    max-height: 500px;
-    object-fit: contain;
+    max-height: auto;
+    height: 450px;
 }
 
 .noticias{
@@ -163,11 +164,9 @@ body {
 
 }
 
-.planilla {
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.parrilla {
+    margin: 5%;
+    padding: 5%;
 }
 
 .redes {
@@ -202,6 +201,10 @@ footer{
     color: white;
 }
 
+iframe{
+    border-radius: 12px;
+}
+
 
 @media screen and (max-width: 770px) {
     nav ul {
@@ -229,12 +232,14 @@ footer{
 }
 
 @media screen and (max-width: 500px) {
-    .carousel {
-        margin: 0;
-        margin-top: -50px;
-        margin-bottom: -20px;
-        height: 400px;
-        display: flex;
-        align-items: center;
+    .carousel img{
+        height: auto;
+        min-height: 250px;
     }
+
+    .carousel{
+        height: auto;
+        
+    }
+
 }
