@@ -193,7 +193,13 @@ body {
 
 .colfooter logoFooter {
     text-align: right;
-    margin-left: -50px;
+    margin-left: -5
+    0px;
+}
+
+footer{
+    background-color: #1468c7;
+    color: white;
 }
 
 
