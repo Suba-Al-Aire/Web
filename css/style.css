@@ -8,7 +8,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: linear-gradient(to right, #191a5b, transparent), url('../img/suba1.png');
+    background-image: linear-gradient(to right, #191a5b, transparent), url('/img/suba1.png');
     background-position: right;
     height: 150px;
 }
